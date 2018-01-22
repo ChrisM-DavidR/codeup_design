@@ -8,28 +8,43 @@
     font-family: 'Abel', sans-serif;
 }
 
+.red {
+    background-color: #E6563B;
+}
+
+.orange {
+    background-color: #EB9D3A;
+}
+
+.green {
+    background-color: #7CB06C;
+}
+
+.blue {
+    background-color: #00ABA9;
+}
 
 /*header mobile
 =======================================================*/
 
-body, .jumbotron {
+body, .jumbotron{
     background-color: #E6E6E6;
 }
 
-.logo {
+.logo{
     top: -60px;
     margin: auto;
     position: relative;
 }
 
-h1.codeup-header {
+h1.codeup-header{
     position: relative;
     font-size: 10em;
     margin-top: -30px;
 }
 
 
-.header {
+.header{
     background-color: white;
     height: 200px;
     box-sizing: border-box;
@@ -44,6 +59,20 @@ h1.codeup-header {
     text-align: center;
     width: auto;
     float: left;
+    /*height: 64px;*/
+}
+
+.sub-header {
+    font-size: 4em;
+    margin: auto;
+    text-align: center;
+    width: auto;
+    height: 48px;
+}
+
+.sub-spacing {
+    margin-top: 6em;
+    margin-bottom: 10em;
 }
 
 .head-space {
@@ -51,4 +80,17 @@ h1.codeup-header {
 }
 .text-center {
     font-size: 4em;
+}
+
+.circle-large {
+    border: 30px solid white;
+    height: 30em;
+    width: 32em;
+    border-radius: 100%;
+    color: white;
+    text-align: center;
+    position: relative;
+    line-height: 350px;
+    box-sizing: border-box;
+    margin: 10px;
 }
