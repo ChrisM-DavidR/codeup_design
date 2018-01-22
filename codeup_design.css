@@ -1,0 +1,18 @@
+img {
+
+    position: absolute;
+}
+
+body {
+    background-color: #E6E6E6;
+}
+
+
+
+.header {
+    background-color: white;
+    height: 200px;
+    box-sizing: border-box;
+    position: relative;
+    width: auto;
+}
